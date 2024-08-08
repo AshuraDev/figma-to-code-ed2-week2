@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { archivo } from "./fonts";
 import "./globals.css";
+import Banner from "@/components/banner";
+import NavBar from "@/components/nav/nav-bar";
 
 export const metadata: Metadata = {
   title: "BALLAMA SHOP",
@@ -16,9 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={archivo.className}>
-        {/*  */}
-        {children}
-        {/*  */}
+        <Banner />
+        <div className=" px-5 md:px-12 xl:px-32">
+          <NavBar />
+          {children}
+        </div>
       </body>
     </html>
   );
