@@ -1,9 +1,13 @@
-import HeroSection from "@/components/hero-section/hero-section";
+import DiscoverTitle from "@/components/home-page/dicover-title-secction";
+import HeroSection from "@/components/home-page/hero-section";
+import ProductListSection from "@/components/home-page/Products-list-section";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <HeroSection />
+      <DiscoverTitle />
+      <ProductListSection />
     </main>
   );
 }

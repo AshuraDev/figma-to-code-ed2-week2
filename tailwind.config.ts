@@ -18,6 +18,11 @@ const config = {
       },
     },
     extend: {
+      height: {
+        "98": "405px",
+        "99": "460px",
+        "100": "500px",
+      },
       colors: {
         color_1: "#E5E5E5",
         color_2: "#C3C3C3",
