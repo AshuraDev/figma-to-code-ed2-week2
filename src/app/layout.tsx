@@ -3,6 +3,7 @@ import { archivo } from "./fonts";
 import "./globals.css";
 import Banner from "@/components/banner";
 import NavBar from "@/components/nav/nav-bar";
+import Footer from "@/components/footer/footer";
 
 export const metadata: Metadata = {
   title: "BALLAMA SHOP",
@@ -23,6 +24,7 @@ export default function RootLayout({
           <NavBar />
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
