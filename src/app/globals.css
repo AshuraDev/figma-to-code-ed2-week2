@@ -67,3 +67,7 @@
     @apply bg-color_5 p-0 m-0;
   }
 }
+
+.text-stroke {
+  -webkit-text-stroke: 1px #ffffff;
+}
