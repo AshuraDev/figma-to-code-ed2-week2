@@ -9,7 +9,7 @@ interface Product {
   picture: string;
 }
 
-const ProductInfoScetion = ({ title, description, picture }: Product) => {
+const ProductInfoSection = ({ title, description, picture }: Product) => {
   return (
     <div className="flex flex-col xl:flex-row justify-center items-start gap-10 w-full">
       <div className="relative h-600 w-full xl:w-100 bg-color_2">
@@ -58,4 +58,4 @@ const ProductInfoScetion = ({ title, description, picture }: Product) => {
   );
 };
 
-export default ProductInfoScetion;
+export default ProductInfoSection;

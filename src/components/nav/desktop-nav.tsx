@@ -43,7 +43,7 @@ const DesktopNav = () => {
           />
           Account
         </Link>
-        <Link href={"*"} className={linksStyles}>
+        <Link href={"/cart"} className={linksStyles}>
           Cart(0)
         </Link>
         <Link href={"*"} className={linksStyles}>

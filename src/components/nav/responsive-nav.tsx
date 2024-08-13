@@ -53,6 +53,7 @@ const ResponsiveNav = () => {
             height={20}
             objectFit="contain"
           />
+          <Link href={'/cart'}>
           <Image
             src={"/icons/cart.svg"}
             alt="Cart icon"
@@ -60,6 +61,7 @@ const ResponsiveNav = () => {
             height={20}
             objectFit="contain"
           />
+          </Link>
         </div>
       </div>
       <div
